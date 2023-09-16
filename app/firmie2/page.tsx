@@ -1,9 +1,9 @@
-import React from 'react'
+import Firmie1Page from '@/components/pages/firmie2-page/Firmie2Page'
 
 const page = () => {
   return (
     <div>
-      firmie2
+      <Firmie1Page/>
     </div>
   )
 }

@@ -39,3 +39,9 @@ body {
     @apply w-full;
   }
 }
+
+.box-card{
+  box-shadow: 10px 10px 32px 5px rgba(217,217,217,0.75) inset;
+  -webkit-box-shadow: 10px 10px 32px 5px rgba(217,217,217,0.75) inset;
+  -moz-box-shadow: 10px 10px 32px 5px rgba(217,217,217,0.75) inset;
+}

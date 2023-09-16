@@ -1,5 +1,4 @@
 import Firmie1Page from '@/components/pages/firmie1-page/Firmie1Page'
-import React from 'react'
 
 const page = () => {
   return (
