@@ -24,8 +24,8 @@ const Firmie1Page = () => {
             <li>Damian Stawiarski</li>
           </ul>
         </div>
-        <div className="bg-[#EDEEF2] flex flex-col gap-2 justify-center container px-16 w-[563px] border-2 rounded-[60px] box-card text-theme-text">
-          <h1 className="uppercase">Vimoni Smart Payment Services Sp z o.o.</h1>
+        <div className="bg-[#EDEEF2] flex flex-col gap-2 justify-center container px-16 w-[563px] border-2 rounded-lg box-card text-theme-text py-2 mt-2">
+          <h1 className="uppercase font-semibold text-lg">Vimoni Smart Payment Services Sp z o.o.</h1>
           <p className="uppercase">KRS: 0001009022 | NIP: 6751775420 | REGON: 523979275</p>
           <div className="flex gap-2">
             <BsFillBuildingFill size={15}/>
@@ -35,12 +35,16 @@ const Firmie1Page = () => {
             <BsTelephoneFill size={15}/>
             <p>+48 661 321 610</p>
           </div>
-        </div>
-        <div className="flex gap-2">
-            <MdEmail size={15}/>
-            <p>info@vimoni.pl</p>
+          <div className="flex gap-2">
+              <MdEmail size={15}/>
+              <p>info@vimoni.pl</p>
           </div>
-        
+        </div>
+        </div>
+        <div className="flex justify-end items-center mt-8">
+          <h2 className="text-theme-text items-center text-sm underline underline-offset-4">
+            Zespół →
+          </h2>
         </div>
       </div>
         <div className="absolute -right-[340px] -top-0 flex aspect-square w-[700px] h-[700px]">
