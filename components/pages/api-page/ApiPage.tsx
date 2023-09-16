@@ -36,7 +36,7 @@ const ApiPage = () => {
             </h2>
           </div>
           <div className="flex flex-row gap-10">
-              <p className="text-theme-text">
+              <p className="text-theme-text w-[100px]">
                 request-id
               </p>
               <div className="flex flex-col gap-4 w-full border-b-2 border-[#d8d8dc] pb-4">

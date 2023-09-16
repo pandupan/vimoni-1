@@ -43,7 +43,7 @@ const Firmie1Page = () => {
         </div>
         <div className="flex justify-end items-center mt-8">
           <h2 className="text-theme-text items-center text-sm underline underline-offset-4">
-            Zespół →
+          Jak zaczeliśmy →
           </h2>
         </div>
       </div>
