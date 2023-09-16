@@ -4,6 +4,15 @@ import { BsServer } from "react-icons/bs";
 const ApiPage = () => {
   return (
     <div className="relative flex justify-between container w-full  px-[200px] pt-28 pb-56">
+      <div className="inset-0 absolute h-full w-[256px] bg-[#e8e9ed] py-20 px-12 flex flex-col justify-start gap-8">
+          <h3 className="text-xl text-theme-primary font-semibold">
+            AUTORYZACJA
+          </h3>
+        <div className="flex flex-col border-t-2 border-[#d8d8dc] text-theme-text w-[68px] pt-8 gap-6">
+          <a>Terminale</a>
+          <a>Transakcje</a>
+        </div>
+      </div>
       <div className="flex flex-col gap-8">
         <div className="flex flex-row gap-10">
           <div className="text-[#d4d5d9]">

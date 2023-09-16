@@ -2,7 +2,16 @@ import Image from "next/image"
 
 const PluginsPage = () => {
   return (
-    <div className="flex flex-col justify-center container w-full px-[200px] pb-10">
+    <div className="relative flex flex-col justify-center container w-full px-[200px] pb-10 ml-48 ">
+      <div className="left-[-200px] absolute h-full w-[256px] bg-[#e8e9ed] py-20 px-12 flex flex-col justify-start gap-8">
+          <h3 className="text-xl text-theme-primary font-semibold">
+            PLUGINS
+          </h3>
+        <div className="flex flex-col border-t-2 border-[#d8d8dc] text-theme-text w-full pt-8 gap-6">
+          <a>Przegląd</a>
+          <a>Tworzenie plugina</a>
+        </div>
+      </div>
       <div className="flex gap-8 w-[579px] py-4 mt-4">
         <Image
           src={"/images/electric.png"}
