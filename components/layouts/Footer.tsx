@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Button from "../core/button"
+import Link from "next/link"
 
 const Footer = () => {
   return (
@@ -12,8 +13,8 @@ const Footer = () => {
       />
       <div className="flex flex-col">
         <ul className="space-y-2">
-          <li className="hover-underline hover:text-theme-secondary">O firmie</li>
-          <li className="hover-underline hover:text-theme-secondary">Kariera</li>
+          <li className="hover-underline hover:text-theme-secondary"><Link href="/firmie1">O firmie</Link></li>
+          <li className="hover-underline hover:text-theme-secondary"><Link href="/kariera">Kariera</Link></li>
           <li className="hover-underline hover:text-theme-secondary">Polityka prywatności</li>
           <li className="hover-underline hover:text-theme-secondary">Polityka plików cookies</li>
         </ul>

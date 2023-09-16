@@ -2,19 +2,24 @@
 
 import Image from 'next/image'
 import Button from '../core/button'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
     <div className="flex justify-between items-center h-[100px] px-[200px] text-theme-text gap-2">
-      <Image
-        src="/images/logo.png"
-        alt="logo"
-        width={153}
-        height={50}
-      />
+      <Link href="/">
+        <Image
+          src="/images/logo.png"
+          alt="logo"
+          width={153}
+          height={50}
+        />
+      </Link>
       <div className="flex space-x-6">
         <p className="hover-underline hover:text-theme-secondary">Usługi</p>
-        <p className="hover-underline hover:text-theme-secondary">Dla developera</p>
+        <Link href="/produkt">
+          <p className="hover-underline hover:text-theme-secondary">Dla developera</p>
+        </Link>
       </div>
       <div className="flex space-x-9">
         <Button title="Zaloguj"/>
