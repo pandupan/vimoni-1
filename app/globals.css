@@ -32,7 +32,7 @@ body {
   }
 
   .hover-underline::after {
-    @apply content-[''] bg-theme-secondary h-[3px] absolute w-[0%] left-1/2 transform -translate-x-1/2 -bottom-[5px] rounded-xl duration-300;
+    @apply content-[''] bg-theme-secondary h-[1.5px] absolute w-[0%] left-1/2 transform -translate-x-1/2 -bottom-[5px] rounded-xl duration-300;
   }
 
   .hover-underline:hover::after {
