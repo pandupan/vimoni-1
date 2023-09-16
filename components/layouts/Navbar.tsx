@@ -13,7 +13,7 @@ const Navbar = () => {
         height={50}
       />
       <div className="flex space-x-6">
-        <p className="hover-underline hover:text-theme-secondary">Utsugi</p>
+        <p className="hover-underline hover:text-theme-secondary">Usługi</p>
         <p className="hover-underline hover:text-theme-secondary">Dla developera</p>
       </div>
       <div className="flex space-x-9">
