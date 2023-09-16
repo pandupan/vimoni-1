@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={work_wans.className}>
-        <div className="bg-[#edeef2]">
+        <div className="bg-[#edeef2] overflow-x-hidden">
           <Navbar/>
             {children}
           <Footer/>
