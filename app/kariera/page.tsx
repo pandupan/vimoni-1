@@ -1,9 +1,10 @@
+import KarieraPage from '@/components/pages/kariera-page/KarieraPage'
 
 
 const page = () => {
   return (
     <div>
-      kariera
+      <KarieraPage/>
     </div>
   )
 }
