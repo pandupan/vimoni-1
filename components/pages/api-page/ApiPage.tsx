@@ -3,7 +3,7 @@ import { BsServer } from "react-icons/bs";
 
 const ApiPage = () => {
   return (
-    <div className="relative flex justify-between container w-full  px-[200px] pt-28 pb-56">
+    <div className="relative flex justify-between container pl-72 w-full  px-[200px] pt-28 pb-56">
       <div className="inset-0 absolute h-full w-[256px] bg-[#e8e9ed] py-20 px-12 flex flex-col justify-start gap-8">
           <h3 className="text-xl text-theme-primary font-semibold">
             AUTORYZACJA
