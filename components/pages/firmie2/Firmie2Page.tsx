@@ -5,12 +5,12 @@ import { MdEmail } from "react-icons/md";
 
 const Firmie1Page = () => {
   return (
-    <div className="relative flex justify-between container w-full px-[200px] py-28">
+    <div className="relative flex justify-between container w-full px-10 xl:container py-28">
       <div className="flex flex-col">
         <h2 className="text-theme-primary underline underline-offset-4 font-bold text-3xl py-2">
           Zespół
         </h2>
-        <div className="w-[600px] flex flex-col gap-4">
+        <div className="max-w-[600px] flex flex-col gap-4">
           <p className="text-theme-text">
             Jesteśmy grupą doświadczonych przedsiębiorców i inżynierów z
             przełomowymi pomysłami, które chcemy wykorzystać, by przyczynić się
@@ -33,7 +33,7 @@ const Firmie1Page = () => {
               <li>Damian Stawiarski</li>
             </ul>
           </div>
-          <div className="bg-[#EDEEF2] flex flex-col gap-2 justify-center container px-16 w-[563px] border-2 rounded-lg box-card text-theme-text py-2 mt-2">
+          <div className="bg-[#EDEEF2] px-8 max-w-[563px] border-2 rounded-lg box-card text-theme-text py-4 mt-2">
             <h1 className="uppercase font-semibold text-lg">
               Vimoni Smart Payment Services Sp z o.o.
             </h1>
@@ -56,9 +56,9 @@ const Firmie1Page = () => {
         </div>
         <div className="flex justify-end items-center mt-8">
           <Link href="/firmie1">
-            <h2 className="text-theme-text items-center text-sm underline underline-offset-4">
+            <span className="block font-semibold text-theme-text items-center text-sm underline underline-offset-4">
               Jak zaczeliśmy →
-            </h2>
+            </span>
           </Link>
         </div>
       </div>

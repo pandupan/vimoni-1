@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Firmie1Page = () => {
   return (
-    <div className="relative flex justify-between container w-full  px-[200px] pt-28 pb-14">
+    <div className="relative flex justify-between container w-full px-10 xl:container pt-28 pb-14">
       <div className="flex flex-col gap-12">
         <h1 className="text-theme-primary font-bold text-5xl">
           NASZA HISTORIA
@@ -11,7 +11,7 @@ const Firmie1Page = () => {
         <h2 className="text-theme-primary underline underline-offset-4 font-bold text-3xl">
           Jak zaczęliśmy
         </h2>
-        <div className="w-[600px] h-[296px] flex flex-col gap-4 -mt-6">
+        <div className="max-w-[600px] flex flex-col gap-4 -mt-6">
           <p className="text-theme-text">
             W 2022 roku podczas jednego ze spotkań branżowych narodził się
             pomysł zbudowania prawdziwie &quot;chmurowego&quot; rozwiązania

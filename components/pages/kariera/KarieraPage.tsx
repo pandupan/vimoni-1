@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const KarieraPage = () => {
   return (
-    <div className="relative flex justify-between container w-full  px-[200px] pt-28 pb-56">
-      <div className="flex flex-col gap-14">
+    <div className="relative flex justify-between w-full px-10 xl:container pt-28 pb-56">
+      <div className="space-y-14">
         <div className="flex flex-col gap-2">
           <h1 className="text-theme-primary font-semibold text-xl">
             KOORDYNATOR DS. FINANSÓW I OPERACJI

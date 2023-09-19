@@ -3,10 +3,10 @@ import Link from "next/link"
 
 const ProduktPage = () => {
   return (
-    <div className="relative flex justify-between container w-full  px-[200px] py-28">
-      <div className="flex flex-col gap-28">
+    <div className="relative flex justify-between w-full px-10 xl:container py-28">
+      <div className="flex flex-col gap-20">
         <Link href="/plugins">
-          <div className="bg-[#EDEEF2] flex flex-col gap-2 justify-center container px-16 w-[563px] h-[222px] border-2 rounded-[60px] shadow-[7px_7px_15px_5px_#00000019]">
+          <div className="bg-[#EDEEF2] flex flex-col gap-2 justify-center px-16 max-w-[563px] h-[222px] border-2 rounded-[60px] shadow-[7px_7px_15px_5px_#00000019]">
             <h1 className="font-semibold text-2xl text-theme-primary">
               PLUGINS
             </h1>
@@ -17,7 +17,7 @@ const ProduktPage = () => {
           </div>
         </Link>
         <Link href="/api">
-          <div className="bg-[#EDEEF2] flex flex-col gap-2 justify-center container px-16 w-[563px] h-[222px] border-2 rounded-[60px] shadow-[7px_7px_15px_5px_#00000019]">
+          <div className="bg-[#EDEEF2] flex flex-col gap-2 justify-center px-16 max-w-[563px] h-[222px] border-2 rounded-[60px] shadow-[7px_7px_15px_5px_#00000019]">
             <h1 className="font-semibold text-2xl text-theme-primary">
               REST API
             </h1>
