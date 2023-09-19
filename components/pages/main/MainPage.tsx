@@ -5,8 +5,12 @@ const MainPage = () => {
   return (
     <div className="relative container w-full px-10 xl:container py-48">
       <div className="absolute -right-[340px] top-32 flex w-[700px] aspect-square">
-        <div className="flex justify-center items-center aspect-square w-[471px] h-[471px] border border-[#f2d6bb] rounded-full">
-            <div className="border border-[#8e7e6e] rounded-full h-[120px] w-[120px] bg-[#8e7e6e]"></div>
+      <div className="flex justify-center items-center aspect-square w-[471px] h-[471px] border border-[#f2d6bb] rounded-full">
+          <div
+            className="border border-[#8e7e6e] rounded-full h-[120px] w-[120px] bg-[#8e7e6e] box-shadow: 10px 10px 122px -28px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 10px 10px 122px -28px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 10px 122px -28px rgba(0,0,0,0.75);"
+          ></div>
           <div className="absolute  transform rotate-45 items-center w-[570px] h-[341px] border-[#d9dade] border rounded-full"></div>
         </div>
       </div>
