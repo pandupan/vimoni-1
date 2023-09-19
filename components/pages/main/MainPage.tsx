@@ -4,8 +4,11 @@ import Image from "next/image";
 const MainPage = () => {
   return (
     <div className="relative container w-full px-10 xl:container py-48">
-      <div className="absolute -right-[340px] -top-0 flex w-[700px] aspect-square">
-        <Image src="/images/Component2.png" alt="Placeholder" fill={true} />
+      <div className="absolute -right-[340px] top-32 flex w-[700px] aspect-square">
+        <div className="flex justify-center items-center aspect-square w-[471px] h-[471px] border border-[#f2d6bb] rounded-full">
+            <div className="border border-[#8e7e6e] rounded-full h-[120px] w-[120px] bg-[#8e7e6e]"></div>
+          <div className="absolute  transform rotate-45 items-center w-[570px] h-[341px] border-[#d9dade] border rounded-full"></div>
+        </div>
       </div>
       <div className="relative space-y-8">
         <h1 className="font-semibold text-5xl sm:text-6xl text-theme-primary">

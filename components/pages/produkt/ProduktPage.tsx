@@ -29,7 +29,10 @@ const ProduktPage = () => {
         </Link>
       </div>
       <div className="absolute -right-[340px] -top-0 flex aspect-square w-[700px] h-[700px]">
-        <Image src="/images/Component2.png" alt="Placeholder" fill={true} />
+      <div className="flex justify-center items-center aspect-square w-[471px] h-[471px] border border-[#f2d6bb] rounded-full">
+            <div className="border border-[#8e7e6e] rounded-full h-[120px] w-[120px] bg-[#8e7e6e]"></div>
+          <div className="absolute  transform rotate-45 items-center w-[570px] h-[341px] border-[#d9dade] border rounded-full"></div>
+        </div>
       </div>
     </div>
   );
