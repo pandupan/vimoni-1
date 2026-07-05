@@ -1,12 +1,50 @@
-# 🏗️ Vimoni
+# 🏗️ Vimoni — Company & Product Showcase
 
-Aplikasi berbasis web dengan menggunakan Next.js. Proyek ini dikembangkan untuk menyediakan layanan atau platform digital tertentu.
+Aplikasi **showcase perusahaan** berbasis Next.js dengan beberapa varian halaman (firmie1, firmie2), API integration, dan katalog produk. Vimoni dirancang untuk menampilkan profil perusahaan secara profesional.
+
+## ✨ Fitur
+
+- **Multiple Theme Pages** — Beberapa varian landing page perusahaan
+  - `firmie1` — Tema perusahaan 1
+  - `firmie2` — Tema perusahaan 2
+- **Kariera** — Halaman karier dan lowongan
+- **Produkt** — Katalog produk / layanan
+- **API Page** — Integrasi dan dokumentasi API
+- **Plugins** — Informasi plugin dan integrasi
 
 ## 🛠️ Tech Stack
 
-- **Next.js** — React framework
-- **TypeScript** — Type safety
-- **Tailwind CSS** — Styling
+| Kategori | Teknologi |
+|----------|-----------|
+| **Framework** | Next.js (App Router) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS |
+| **Animation** | Framer Motion |
+
+## 📁 Struktur Proyek
+
+```
+├── app/
+│   ├── page.tsx              # Landing page utama
+│   ├── firmie1/              # Tema 1 — halaman perusahaan
+│   ├── firmie2/              # Tema 2 — halaman perusahaan
+│   ├── kariera/              # Halaman karier
+│   ├── produkt/              # Halaman produk
+│   ├── api/                  # Halaman API
+│   └── plugins/              # Halaman plugin
+├── components/
+│   ├── layouts/
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+│   ├── core/
+│   │   └── button.tsx
+│   └── pages/
+│       ├── api/ApiPage.tsx
+│       ├── firmie1/Firmie1Page.tsx
+│       ├── firmie2/Firmie2Page.tsx
+│       ├── kariera/KarieraPage.tsx
+│       └── produkt/ProduktPage.tsx
+```
 
 ## 🚀 Cara Menjalankan
 
